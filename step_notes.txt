@@ -3,4 +3,4 @@ Ask user for location input
 Use their location along with an API 
 - Use openWeather API
 Fetch the data and dumps the data along with a .json to make it readable
-Manipulate the data and output what we desire to the user to make the forecase
+Manipulate the data and output what we desire to the user to make the forecast
