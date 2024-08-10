@@ -6,14 +6,14 @@
         [Project Description](#project-description)
     </li>
     <li>
-        [Running the Project](https://github.com/TPlatts04/Weather-Forecast/tree/main?tab=readme-ov-file#running-the-project)
+        [Running the Project](#running-the-project)
     </li>
     <li>
-        [Licensing](https://github.com/TPlatts04/Weather-Forecast/tree/main?tab=readme-ov-file#licensing)
+        [Licensing](#licensing)
     </li>
 </ul>
 
-<h1 id="project-description">Project Description</h1>
+# Project Description
 <ul>
     <li>
         <p>The application you see here will take 2 user inputs on load, first input is their city of origin or where they would like to view the weather, and the second input is the units of measurement they would like to view the temperature in. Following this, the program will use a request.get module to call an API url to gather data based on their city input.</p>
@@ -26,7 +26,7 @@
     </li>
 </ul>
 
-<h1>Running the Project</h1>
+# Running the Project
 <p>This project is fairly straightforward to run for people who are unsure proceed with the steps below</p>
 <ol>
     <li>
@@ -52,7 +52,7 @@
     </li>
 </ol>
 
-<h1>Licensing</h1>
+# Licensing
 TERMS AND CONDITIONS
 0. Definitions.
 “This License” refers to version 3 of the GNU General Public License.
