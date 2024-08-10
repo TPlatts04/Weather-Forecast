@@ -1,5 +1,14 @@
 <h1><b><u>Weather Forecast (5-Day) (3-Hour Increments)</u></b></h1>
 
+<h1>Table of Contents</h1>
+<ul>
+    <li>
+        [Project Description](https://github.com/TPlatts04/Weather-Forecast/tree/main?tab=readme-ov-file#project-description)
+        [Running the Project](https://github.com/TPlatts04/Weather-Forecast/tree/main?tab=readme-ov-file#running-the-project)
+        [Licensing](https://github.com/TPlatts04/Weather-Forecast/tree/main?tab=readme-ov-file#licensing)
+    </li>
+</ul>
+
 <h1>Project Description</h1>
 <ul>
     <li>
