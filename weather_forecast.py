@@ -10,10 +10,12 @@ def configure():
 def main():
     configure()
     print("5-Day (3-Hour-Step) Weather Forecast")
+    print("NOTE: You'll need a big terminal window for this.")
     getLocation =  input("Enter your location here: ")
-    getLocationData(getLocation)
+    conversionUnits = input("Would you like to view as F (Fahrenheit), C (Celcius) or K (Kelvin): ").upper()
+    getLocationData(getLocation, conversionUnits)
 
-def getLocationData(location):
+def getLocationData(location, convUnits):
     URL = f"https://api.openweathermap.org/data/2.5/forecast?q={location}&appid={os.getenv('API_KEY')}"
     requestData = requests.get(URL) # Call the URL to get the data
     data = requestData.json() # Change the requestsData variable into json so it is readable
@@ -30,7 +32,13 @@ def getLocationData(location):
             weatherDescList.append(forecastList[x]["weather"][0]["description"])
             timeList.append(forecastList[x]["dt_txt"])
         for y in range(len(tempList)):
-            completeDataList.append([f"{round(tempList[y] - 273.15, 2)}C", humiditylist[y], weatherDescList[y], timeList[y]])
+            match convUnits:
+                case "K":
+                    completeDataList.append([f"{round(tempList[y], 2)}K", f"{humiditylist[y]}%", weatherDescList[y], timeList[y]])
+                case "C":
+                    completeDataList.append([f"{round(tempList[y] - 273.15, 2)}C", f"{humiditylist[y]}%", weatherDescList[y], timeList[y]])
+                case "F":
+                    completeDataList.append([f"{round(((((tempList[y] - 273.15) * 9)/5) + 32), 2)}F", f"{humiditylist[y]}%", weatherDescList[y], timeList[y]])
         outputForecast(completeDataList)
 
 def outputForecast(dataList):
