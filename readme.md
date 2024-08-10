@@ -32,7 +32,7 @@
         <p>Create a variable, it can be anything you like, mine was API_KEY, and then set that equal to your generated API Key from OpenWeather. E.g API_KEY = <b>Your API Key here</b>, no need for quotation marks.</p>
     </li>
     <li>
-        <p>Go back to <code>weather_forecast.py</p> and on line 19, in the fstring, change <code>os.getenv('API_KEY')</code> to <code>os.getenv('Your API variable name in the .env file')</code>
+        <p>Go back to <code>weather_forecast.py</code></p> and on line 19, in the fstring, change <code>os.getenv('API_KEY')</code> to <code>os.getenv('Your API variable name in the .env file')</code>
     </li>
     <li>
         <p>Now run the program and hopefully all works well! If it does not work, then feel free to message me on Discord, @<u>TPlatts#1368</u></p>
