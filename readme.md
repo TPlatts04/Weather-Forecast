@@ -1,19 +1,11 @@
 <h1><b><u>Weather Forecast (5-Day) (3-Hour Increments)</u></b></h1>
 
 <h1>Table of Contents</h1>
-<ul>
-    <li>
-        [Project Description](#project-description)
-    </li>
-    <li>
-        [Running the Project](#running-the-project)
-    </li>
-    <li>
-        [Licensing](#licensing)
-    </li>
-</ul>
+- [Project Description](#project-description)
+- [Running the Project](#running-the-project)
+- [Licensing](#licensing)
 
-# <a name="project-description"></a>Project Description
+# Project Description
 <ul>
     <li>
         <p>The application you see here will take 2 user inputs on load, first input is their city of origin or where they would like to view the weather, and the second input is the units of measurement they would like to view the temperature in. Following this, the program will use a request.get module to call an API url to gather data based on their city input.</p>
