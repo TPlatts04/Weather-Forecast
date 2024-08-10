@@ -1,10 +1,5 @@
 <h1><b><u>Weather Forecast (5-Day) (3-Hour Increments)</u></b></h1>
 
-<h1>Table of Contents</h1>
-- [Project Description](#project-description)
-- [Running the Project](#running-the-project)
-- [Licensing](#licensing)
-
 # Project Description
 <ul>
     <li>
