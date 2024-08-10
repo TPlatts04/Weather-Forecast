@@ -9,7 +9,7 @@
         <p>I created this project with Python because i am currently teaching myself as much Python as i can by doing my own projects and watching online tutorials to ensure that i learn everything i can about this programming language. I chose Python not because it is beginner friendly, but because it is now a WorldWide programming language used by majority of the companies out there, especially by companies who offer jobs i want to specialise in (ML/Software Engineering).</p>
     </li>
     <li>
-        <p>I struggled with some parts of this project, such as understanding the requests package, but it didn't take long to get the hang of it. While creating the project i wanted to learn how to hide an API key which i did using a package called <code>dotenv</code>. A feature i would like to implement in the future would be to check whether the city the user has inputted exists more than once throughout the OpenWeather database. If so i would ask the user which city they would like to view.</p>
+        <p>I struggled with some parts of this project, such as understanding the requests package, but it didn't take long to get the hang of it. While creating the project i wanted to learn how to hide an API key which i did using a package called <code>dotenv</code> and a .gitignore file. A feature i would like to implement in the future would be to check whether the city the user has inputted exists more than once throughout the OpenWeather database. If so i would ask the user which city they would like to view.</p>
     </li>
 </ul>
 
