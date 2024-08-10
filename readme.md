@@ -9,7 +9,7 @@
     </li>
 </ul>
 
-<h1>Project Description</h1>
+<h1 id="project-description">Project Description</h1>
 <ul>
     <li>
         <p>The application you see here will take 2 user inputs on load, first input is their city of origin or where they would like to view the weather, and the second input is the units of measurement they would like to view the temperature in. Following this, the program will use a request.get module to call an API url to gather data based on their city input.</p>
@@ -22,7 +22,7 @@
     </li>
 </ul>
 
-<h1>Running the Project</h1>
+<h1 id="running-the-project">Running the Project</h1>
 <p>This project is fairly straightforward to run for people who are unsure proceed with the steps below</p>
 <ol>
     <li>
@@ -48,7 +48,7 @@
     </li>
 </ol>
 
-<h1>Licensing</h1>
+<h1 id="licensing">Licensing</h1>
 TERMS AND CONDITIONS
 0. Definitions.
 “This License” refers to version 3 of the GNU General Public License.
