@@ -3,7 +3,7 @@
 <h1>Table of Contents</h1>
 <ul>
     <li>
-        [Project Description](https://github.com/TPlatts04/Weather-Forecast/tree/main?tab=readme-ov-file#project-description)
+        [Project Description](#project-description)
     </li>
     <li>
         [Running the Project](https://github.com/TPlatts04/Weather-Forecast/tree/main?tab=readme-ov-file#running-the-project)
